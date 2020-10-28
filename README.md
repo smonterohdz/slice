@@ -4,11 +4,11 @@ Structure Learning via Intervals of Causal Effects (SLICE)
 Resolve undefined causal edges froma an equivalence class represented bya a completed partially directed acyclic graphCPDAG
 Params
  G.am An adjacency matrix of the initial CPDAG containig one or more undefined causal edges to be resolved. The edgemark-code in am refers to the row index.
- V.data A matrix with \code{"m"} observations (rows) of the \code{"p"} variables (columns)
+ V.data A matrix with "m" observations (rows) of the "p" variables (columns)
 Return
- A data frame with the learnt structure (\code{"G.est"}), the type of outcome (\code{"G.outcome"}), 
-a data frame with information regarding the computed intervals of causal effects (\code{"G.df_ice"}),
-the number of iteration elapsed (\code{"iters"}).
+ A data frame with the learnt structure ("G.est"), the type of outcome ("G.outcome"), 
+a data frame with information regarding the computed intervals of causal effects ("G.df_ice"),
+the number of iteration elapsed ("iters").
 Author: Samuel Montero-Hernandez, s,monterohdz@gmail.com
 
 
