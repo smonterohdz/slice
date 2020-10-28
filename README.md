@@ -9,7 +9,7 @@ Return
  A data frame with the learnt structure ("G.est"), the type of outcome ("G.outcome"), 
 a data frame with information regarding the computed intervals of causal effects ("G.df_ice"),
 the number of iteration elapsed ("iters").
-Author: Samuel Montero-Hernandez, s,monterohdz@gmail.com
+Author: Samuel Montero-Hernandez, s.monterohdz@gmail.com
 
 
 ## Examples
